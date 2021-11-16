@@ -94,13 +94,13 @@
 
             <!--            Plugin para mostrar la documentación javadoc en el maven site-->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.3.1</version>
-                <configuration>
-                    <doclint>none</doclint>  <!-- Turnoff all checks -->
-                </configuration>
-            </plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.3.0</version>
+            <configuration>
+                <doclint>none</doclint>  <!-- Turnoff all checks -->
+            </configuration>
+        </plugin>
 
             <!--            Plugin JaCoCo para mostrar el reporte de cobertura en el maven site -->
             <plugin>
