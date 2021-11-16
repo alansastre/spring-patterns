@@ -1,4 +1,4 @@
-name: SonarCloud Analysis
+name: Analisys spring-patterns
 on:
   push:
     branches:
@@ -39,8 +39,9 @@ jobs:
       - name: Site
         run: mvn -B site
 
-      - name: Sonar
+
+      - name: Build and analyze
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=alansastre_spring-patterns
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=anbarma_spring-patterns
