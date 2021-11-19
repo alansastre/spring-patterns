@@ -24,7 +24,7 @@
 
     <contributors>
         <contributor>
-            <email>user1@example.com</email>
+            <email>francisco.villa.gonzalez@gmail.com</email>
         </contributor>
     </contributors>
 
@@ -38,6 +38,8 @@
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <sonar.organization>villafrancisco</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.junit.reportsPath>target/surefire-reports/*.xml</sonar.junit.reportsPath>
         <sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
