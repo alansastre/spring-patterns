@@ -1,5 +1,6 @@
-package com.example.springpatterns.creational.factory;
 
+
+import com.example.springpatterns.patterns.creational.factory.Main;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
