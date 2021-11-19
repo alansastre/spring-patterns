@@ -24,8 +24,8 @@
 
 
     <organization>
-        <name>COSMIC DEVELOPMENTS S.L.</name>
-        <url>https://example.com</url>
+        <name>VILLA DEVELOPMENTS S.L.</name>
+        <url>https:/villadevelopments.com</url>
     </organization>
 
     <properties>
@@ -40,8 +40,7 @@
         <sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
         <sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
         <sonar.java.spotbugs.reportPaths>target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths>
-        <sonar.organization>villafrancisco</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     </properties>
 
     <dependencies>
