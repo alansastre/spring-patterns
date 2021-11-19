@@ -17,16 +17,11 @@
 
     <developers>
         <developer>
-            <name>alansastre</name>
-            <email>alan@example.com</email>
+            <name>FranciscoVilla</name>
+            <email>francisco.villa.gonzalez@gmail.com</email>
         </developer>
     </developers>
 
-    <contributors>
-        <contributor>
-            <email>francisco.villa.gonzalez@gmail.com</email>
-        </contributor>
-    </contributors>
 
     <organization>
         <name>COSMIC DEVELOPMENTS S.L.</name>
